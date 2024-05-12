@@ -53,7 +53,7 @@ Para criar a VM no GCP, siga estas etapas:
 5. **Acesso à VM**:
    - Após a criação da VM, conecte-se via SSH usando:
      ```bash
-     ssh -i ./id_ed25519 ubuntu@<IP_DA_VM>
+     ssh -i ./id_key ubuntu@<IP_DA_VM>
      ```
 
 ## Contribuições
