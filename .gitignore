@@ -1,0 +1,35 @@
+# Arquivo .gitignore para ignorar chaves de serviço e arquivos sensíveis
+
+# Ignorar arquivos de chave de serviço do Google Cloud
+*.json
+
+# Ignorar arquivos de configuração locais que podem conter informações sensíveis
+*.config
+*.ini
+
+# Ignorar diretórios que possam conter arquivos sensíveis
+secrets/
+config/
+env/
+
+# Ignorar arquivos temporários que podem ser criados por editores ou sistemas operacionais
+*.swp
+*~
+.DS_Store
+
+# Ignorar diretórios de ambiente virtual, comuns em projetos Python
+venv/
+env/
+*.venv
+.env
+
+#ignorar chaves públicas e privadas
+id_ed25519
+*.pem
+*.key
+*.pub
+*.cer
+*.crt
+*.p12
+*.pfx
+*.pem
