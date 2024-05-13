@@ -2,7 +2,7 @@
 
 # Ignorar arquivos de chave de serviço do Google Cloud
 *.json
-
+*.txt
 # Ignorar arquivos de configuração locais que podem conter informações sensíveis
 *.config
 *.ini
